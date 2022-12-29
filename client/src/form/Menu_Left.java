@@ -23,9 +23,6 @@ public class Menu_Left extends javax.swing.JPanel {
         //  test data
         menuList.removeAll();
         menuList.add(new Item_People("Chat chung "), "wrap");
-        for (int i = 0; i < 4; i++) {
-            menuList.add(new Item_People("People " + i), "wrap");
-        }
         refreshMenuList();
     }
 

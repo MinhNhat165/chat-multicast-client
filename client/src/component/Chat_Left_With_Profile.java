@@ -1,6 +1,7 @@
 package component;
 
 import java.awt.Color;
+import java.util.Objects;
 import javax.swing.Icon;
 
 public class Chat_Left_With_Profile extends javax.swing.JLayeredPane {
@@ -40,11 +41,12 @@ public class Chat_Left_With_Profile extends javax.swing.JLayeredPane {
     }
 
     public void setTime() {
-        txt.setTime("10:30 PM");    //  Testing
+        txt.setTime("10:30 PM"); // Testing
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated
+    // Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jLayeredPane1 = new javax.swing.JLayeredPane();
@@ -54,7 +56,8 @@ public class Chat_Left_With_Profile extends javax.swing.JLayeredPane {
         setLayout(new javax.swing.BoxLayout(this, javax.swing.BoxLayout.LINE_AXIS));
 
         IaImage.setBorderSize(0);
-        IaImage.setImage(new javax.swing.ImageIcon(getClass().getResource("/icon/testing/dog.jpg"))); // NOI18N
+        IaImage.setImage(
+                new javax.swing.ImageIcon(Objects.requireNonNull(getClass().getResource("/icon/testing/dog.jpg")))); // NOI18N
         IaImage.setMaximumSize(new java.awt.Dimension(31, 31));
         IaImage.setMinimumSize(new java.awt.Dimension(31, 31));
         IaImage.setPreferredSize(new java.awt.Dimension(31, 31));
@@ -64,22 +67,22 @@ public class Chat_Left_With_Profile extends javax.swing.JLayeredPane {
         javax.swing.GroupLayout jLayeredPane1Layout = new javax.swing.GroupLayout(jLayeredPane1);
         jLayeredPane1.setLayout(jLayeredPane1Layout);
         jLayeredPane1Layout.setHorizontalGroup(
-            jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jLayeredPane1Layout.createSequentialGroup()
-                .addComponent(IaImage, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-        );
+                jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jLayeredPane1Layout.createSequentialGroup()
+                                .addComponent(IaImage, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                        javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addContainerGap()));
         jLayeredPane1Layout.setVerticalGroup(
-            jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jLayeredPane1Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(IaImage, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
+                jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING,
+                                jLayeredPane1Layout.createSequentialGroup()
+                                        .addGap(0, 0, Short.MAX_VALUE)
+                                        .addComponent(IaImage, javax.swing.GroupLayout.PREFERRED_SIZE, 31,
+                                                javax.swing.GroupLayout.PREFERRED_SIZE)));
 
         add(jLayeredPane1);
         add(txt);
     }// </editor-fold>//GEN-END:initComponents
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private swing.ImageAvatar IaImage;

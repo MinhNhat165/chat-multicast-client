@@ -57,6 +57,7 @@ public class Chat_Bottom extends javax.swing.JPanel {
                 String text = txt.getText().trim();
                 if (!text.equals("")) {
                     PublicEvent.getInstance().getEventChat().sendMessage(text);
+                    System.out.println(text);
                     txt.setText("");
                     txt.grabFocus();
                     refresh();

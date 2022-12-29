@@ -23,13 +23,20 @@ public class Chat extends javax.swing.JPanel {
             public void sendMessage(String text) {
                 chatBody.addItemRight(text);
             }
+            @Override
+            public void receiveMessage(String text, String user) {
+                chatBody.addItemLeft(text, user);
+            }
+            @Override
+            public void userJoin(String user) {
+                chatBody.addItemCenter(user);
+            }
         });
         add(chatTitle, "wrap");
         add(chatBody, "wrap");
         add(chatBottom, "h ::50%");
     }
 
-    @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 

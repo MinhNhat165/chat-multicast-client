@@ -6,6 +6,9 @@ import java.awt.FlowLayout;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
@@ -45,10 +48,12 @@ public class Chat_Item extends javax.swing.JLayeredPane {
     }
 
     public void setTime(String time) {
+        SimpleDateFormat formatter = new SimpleDateFormat("HH:mm: a");
+        Date date = new Date();
         JLayeredPane layer = new JLayeredPane();
         layer.setLayout(new FlowLayout(FlowLayout.RIGHT, 0, 0));
         layer.setBorder(new EmptyBorder(0, 5, 10, 5));
-        label = new JLabel(time);
+        label = new JLabel(formatter.format(date));
         label.setForeground(new Color(110, 110, 110));
         label.setHorizontalTextPosition(JLabel.LEFT);
         layer.add(label);

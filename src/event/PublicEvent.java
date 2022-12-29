@@ -5,6 +5,7 @@ public class PublicEvent {
     private static PublicEvent instance;
     private EventImageView eventImageView;
     private EventChat eventChat;
+    private EventUser eventUser;
 
     public static PublicEvent getInstance() {
         if (instance == null) {
@@ -20,6 +21,7 @@ public class PublicEvent {
     public void addEventImageView(EventImageView event) {
         this.eventImageView = event;
     }
+    public void addEventUser(EventUser event) {this.eventUser = event;}
 
     public void addEventChat(EventChat event) {
         this.eventChat = event;
@@ -31,5 +33,9 @@ public class PublicEvent {
 
     public EventChat getEventChat() {
         return eventChat;
+    }
+
+    public EventUser getEventUser() {
+        return eventUser;
     }
 }

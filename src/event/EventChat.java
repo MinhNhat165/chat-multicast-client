@@ -7,4 +7,6 @@ public interface EventChat {
     void receiveMessage(String text, String user);
 
     void userJoin(String user);
+
+    void joinRoom(String user);
 }

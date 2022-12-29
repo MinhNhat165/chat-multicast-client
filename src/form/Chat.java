@@ -31,6 +31,11 @@ public class Chat extends javax.swing.JPanel {
             public void userJoin(String user) {
                 chatBody.addItemCenter(user);
             }
+
+            @Override
+            public void joinRoom(String roomName) {
+                chatTitle.setUserName(roomName);
+            }
         });
         add(chatTitle, "wrap");
         add(chatBody, "wrap");

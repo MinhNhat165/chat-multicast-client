@@ -5,6 +5,8 @@ import java.awt.Adjustable;
 import java.awt.Color;
 import java.awt.event.AdjustmentEvent;
 import java.awt.event.AdjustmentListener;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import javax.swing.JScrollBar;
 import net.miginfocom.swing.MigLayout;
 
@@ -44,12 +46,14 @@ public class Chat_Body extends javax.swing.JPanel {
     }
 
     public void addItemCenter(String user) {
-        Chat_Right item = new Chat_Right();
-        item.setText(user + "join chat");
-        body.add(item, "wrap, al right, w 100::80%");
+        Chat_Center item = new Chat_Center();
+        SimpleDateFormat formatter = new SimpleDateFormat("HH:mm a");
+        Date date = new Date();
+
+        item.setText(user + " join chat at " + formatter.format(date));
+        body.add(item, "wrap, al center, w 100::80%");
         body.repaint();
         body.revalidate();
-        item.setTime();
         scrollToBottom();
     }
 

@@ -1,12 +1,16 @@
 package form;
 
 import component.Item_People;
+import event.EventUser;
+import event.PublicEvent;
 import swing.ScrollBar;
 import net.miginfocom.swing.MigLayout;
 
+import java.util.ArrayList;
 import java.util.Objects;
 
 public class Menu_Left extends javax.swing.JPanel {
+    public static ArrayList<String> usersConnected;
 
     public Menu_Left() {
         initComponents();
@@ -16,6 +20,24 @@ public class Menu_Left extends javax.swing.JPanel {
     private void init() {
         sp.setVerticalScrollBar(new ScrollBar());
         menuList.setLayout(new MigLayout("fillx", "0[]0", "0[]0"));
+        usersConnected = new ArrayList<>();
+        PublicEvent.getInstance().addEventUser(new EventUser() {
+
+            @Override
+            public void  removeUserConnected(String user) {
+                usersConnected.remove(user);
+                menuList.removeAll();
+                for (String s : usersConnected) {
+                    menuList.add(new Item_People(s), "wrap");
+                }
+            }
+            @Override
+            public void addUserConnected(String user) {
+                usersConnected.add(user);
+                menuList.add(new Item_People(user), "wrap");
+            }
+        });
+
         showMessage();
     }
 
@@ -26,11 +48,11 @@ public class Menu_Left extends javax.swing.JPanel {
         refreshMenuList();
     }
 
-    private void showGroup() {
+    private void showUserConnected() {
         //  test data
         menuList.removeAll();
-        for (int i = 0; i < 5; i++) {
-            menuList.add(new Item_People("User" + i), "wrap");
+        for (String s : usersConnected) {
+            menuList.add(new Item_People(s), "wrap");
         }
         refreshMenuList();
     }
@@ -126,7 +148,7 @@ public class Menu_Left extends javax.swing.JPanel {
         if (!menuGroup.isSelected()) {
             menuMessage.setSelected(false);
             menuGroup.setSelected(true);
-            showGroup();
+            showUserConnected();
         }
     }//GEN-LAST:event_menuGroupActionPerformed
 

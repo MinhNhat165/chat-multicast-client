@@ -10,16 +10,17 @@ import event.PublicEvent;
 import swing.ComponentResizer;
 import java.awt.Dimension;
 import java.awt.Toolkit;
+import java.util.ArrayList;
 import java.util.Objects;
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.swing.JFrame;
+import javax.swing.*;
 
 /**
  *
  * @author RAVEN
  */
 public class Main extends JFrame {
+    public static String username;
+    public static ArrayList<String> usersConnect;
 
     /**
      * Creates new form Main
@@ -239,9 +240,15 @@ public class Main extends JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
+                username = JOptionPane.showInputDialog("Enter the name with which you want to identify yourself");
+                while(username.isEmpty()){
+                    username = JOptionPane.showInputDialog("Enter the name with which you want to identify yourself");
+                }
                 new Main().setVisible(true);
-                PublicEvent.getInstance().getEventChat().receiveMessage("helo", "itme");
-                PublicEvent.getInstance().getEventChat().userJoin("nhat");
+//                PublicEvent.getInstance().getEventUser().addUserConnected(username);
+//                PublicEvent.getInstance().getEventUser().removeUserConnected(username);
+//                PublicEvent.getInstance().getEventChat().receiveMessage("helo", "itme");
+//                PublicEvent.getInstance().getEventChat().joinRoom("general");
             }
         });
     }

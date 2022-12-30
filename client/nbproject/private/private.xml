@@ -3,11 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/D:/Workspace/chart-application/client/src/form/Menu_Left.java</file>
             <file>file:/D:/Workspace/chart-application/client/src/component/Item_People.java</file>
             <file>file:/D:/Workspace/chart-application/client/src/main/Main.java</file>
             <file>file:/D:/Workspace/chart-application/client/src/component/Create_Room.java</file>
             <file>file:/D:/Workspace/chart-application/client/src/form/Menu_Right.java</file>
+=======
+            <file>file:/C:/Users/anony/OneDrive/Desktop/Workspace/Java/chat-multicast-app/client/src/main/Client.java</file>
+            <file>file:/C:/Users/anony/OneDrive/Desktop/Workspace/Java/chat-multicast-app/client/src/main/Main.java</file>
+>>>>>>> 3a7fba672232b75082ca608b43948f1030a33579
         </group>
     </open-files>
 </project-private>

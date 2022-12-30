@@ -1,5 +1,4 @@
 package event;
-
 import models.ChatMessage;
 
 public interface EventChat {

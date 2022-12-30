@@ -362,5 +362,4 @@ public class Main extends JFrame {
             // code block
         }
     }
-
 }

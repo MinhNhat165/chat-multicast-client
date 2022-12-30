@@ -21,7 +21,7 @@ public class Client extends Thread {
     public static final String MULTICAST_ADDRESS = "230.0.0.1";
     public static final int MULTICAST_PORT = 4000;
     public static final int DATAGRAM_BUFFTER_LENGTH = 2048;
-    Main main = new Main();
+    Main main = new Main(0);
     Message messageSocket = new Message();
     
     @Override
@@ -42,7 +42,6 @@ public class Client extends Thread {
             // tham gia vao nhom dia chi theo bien MULTICAST_ADDRESS
             socket.joinGroup(group);
             // nhan goi phuc vumain.getName().getBytes(), main.getName().length() ,group, MULTICAST_ADDRESS);
-
             DatagramPacket user = new DatagramPacket(messageSocket.makeJoinMessage(main.getName()).getBytes(), messageSocket.makeJoinMessage(main.getName()).length() ,group, MULTICAST_PORT);
             socket.send(user);
 
@@ -87,7 +86,6 @@ public class Client extends Thread {
                         byte[] data = recv.getData();
                         String message = new String(data);
                         System.out.println("Data from server: " + message);
-                        main.setNewMessage(message);
                     } catch (Exception e) {
                          System.out.println("error " + e.getMessage());
                     }
@@ -95,9 +93,6 @@ public class Client extends Thread {
                 }
                
             }
-
-
-
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -115,8 +110,6 @@ public class Client extends Thread {
             e.printStackTrace();
         }
 
-       
-        
     }
 }
  

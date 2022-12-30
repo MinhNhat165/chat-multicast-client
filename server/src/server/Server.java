@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 package server;
 
 import models.Message;
 
+=======
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package server;
+
+>>>>>>> 3a7fba672232b75082ca608b43948f1030a33579
 import java.io.*;
 import java.net.*;
 import java.util.ArrayList;
@@ -21,7 +30,11 @@ public class Server extends Thread {
     private ArrayList<String> users;
 
     public void run() {
+<<<<<<< HEAD
         users = new ArrayList<>();
+=======
+        users = new ArrayList();
+>>>>>>> 3a7fba672232b75082ca608b43948f1030a33579
         String message = "";
         InetAddress group = null;
 
@@ -42,6 +55,7 @@ public class Server extends Thread {
                 DatagramPacket recv = new DatagramPacket(buffer, buffer.length);
                 socket.receive(recv);
                 byte[] data = recv.getData();
+<<<<<<< HEAD
                 Message message1 = new Message(new String(data));
                 String messageSend = "";
 
@@ -74,6 +88,51 @@ public class Server extends Thread {
                 DatagramPacket packet = new DatagramPacket(messageSend.getBytes(), messageSend.length(), group, MULTICAST_PORT);
                 socket.send(packet);
                 socket.close();
+=======
+                message = new String(data);
+                System.out.println("Data from client: " + message);
+
+                if (message.contains("<join>")) { // new user join
+                    message = message.substring(("<join>").length());
+                    String name = "";
+                    int i = 0;
+                    while (Character.isLetter(message.charAt(i))) {
+                        name = name + message.charAt(i);
+                        i++;
+                    }
+
+                    users.add(name);
+                    String noti = "<newUser>" + users.toString();
+                    System.out.println("noti: " + noti);
+                    DatagramPacket packet = new DatagramPacket(noti.getBytes(), noti.length(), group, MULTICAST_PORT);
+                    socket.send(packet);
+                    socket.close();
+                } else if (message.contains("Client<message>")) { // new message from any client
+                    
+                    message = message.substring(("Client<message>").length());
+                    message = "Server<message>" + message;
+                    DatagramPacket packet = new DatagramPacket(message.getBytes(), message.length(), group, MULTICAST_PORT);
+                    System.out.println("<noti>: " + message.toString() + "  con un TTL= " + socket.getTimeToLive());
+                    socket.send(packet);
+                    socket.close();
+                    
+                } else if (message.contains("<leave>")) { // user out group
+                    String name = "";
+                    int i = "<leave>".length();
+                    while (Character.isLetter(message.charAt(i))) {
+                        name = name + message.charAt(i);
+                        i++;
+                    }
+
+                    users.remove(name);
+                    String noti = "<userLeave>" + users.toString();
+                    System.out.println("noti: " + noti);
+                    DatagramPacket packet = new DatagramPacket(noti.getBytes(), noti.length(), group, MULTICAST_PORT);
+                    socket.send(packet);
+                    socket.close();
+                }
+
+>>>>>>> 3a7fba672232b75082ca608b43948f1030a33579
             } catch (IOException ex) {
                 Logger.getLogger(Server.class.getName()).log(Level.SEVERE, null, ex);
                 System.exit(2);
@@ -82,7 +141,11 @@ public class Server extends Thread {
             // sleep 5 second
             try {
                 Thread.sleep(1000 * 5);
+<<<<<<< HEAD
             } catch (InterruptedException ignored) {
+=======
+            } catch (InterruptedException ie) {
+>>>>>>> 3a7fba672232b75082ca608b43948f1030a33579
             }
         }
     }

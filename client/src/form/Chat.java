@@ -58,8 +58,10 @@ public class Chat extends javax.swing.JPanel {
 
             @Override
             public void receiveMessage(ChatMessage chatMessage) {
+                System.out.println(chatMessage.getRoomId());
 
                 if(currentRoom.getId().equals(chatMessage.getRoomId())) {
+                    System.out.println(chatMessage.getRoomId());
                     chatBody.addItem(chatMessage); // nếu đang đứng tại room đó thì add tinh nhắn vô luôn;
                 }
                 int index = IntStream.range(0, rooms.size())

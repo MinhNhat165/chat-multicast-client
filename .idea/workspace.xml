@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f70f39-8823-470a-8df7-43d4d89c5c44" name="Changes" comment="resolve conflict">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/form/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/form/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/form/Menu_Right.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/form/Menu_Right.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Home.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Menu_Right$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Menu_Right$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Menu_Right.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/form/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/form/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Chat$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Chat$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Chat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Chat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/main/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/main/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/main/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

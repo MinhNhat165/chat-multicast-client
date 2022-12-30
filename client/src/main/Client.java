@@ -60,7 +60,6 @@ public class Client extends Thread {
                 @Override
                 public void createRoom(Room room) throws IOException {
                     String message = messageSocket.makeTextCreateRoom(room.getId(), room.getName(), room.getMember().toString());
-                    System.out.println(message);
                     DatagramPacket packet = new DatagramPacket(message.getBytes(), message.length(), finalGroup, MULTICAST_PORT);
                     socket.send(packet);
                 }
@@ -85,7 +84,7 @@ public class Client extends Thread {
                         socket.receive(recv);
                         byte[] data = recv.getData();
                         String message = new String(data);
-                        System.out.println("Data from server: " + message);
+                        main.setNewMessage(message);
                     } catch (Exception e) {
                          System.out.println("error " + e.getMessage());
                     }

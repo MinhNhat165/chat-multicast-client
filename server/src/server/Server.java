@@ -4,7 +4,6 @@ import models.Message;
 import java.io.*;
 import java.net.*;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -21,7 +20,6 @@ public class Server extends Thread {
 
     public void run() {
         users = new ArrayList<>();
-        String message = "";
         InetAddress group = null;
 
         try {
@@ -43,6 +41,8 @@ public class Server extends Thread {
                 byte[] data = recv.getData();
                 Message message1 = new Message(new String(data));
                 String messageSend = "";
+
+                System.out.println(message1.getSender());
 
                 switch (message1.getType()) {
                     case "join" -> {

@@ -310,11 +310,9 @@ public class Main extends JFrame {
         return username;
     }
 
-    public static ArrayList<String> usersConnect;
     public void setNewMessage(String newMessage) {
 
         Message message = new Message(newMessage);
-        System.out.println(message.getType());
         switch (message.getType()) {
             case "join" -> {
                 PublicEvent.getInstance().getEventUser().addUserConnected(message.getSender());

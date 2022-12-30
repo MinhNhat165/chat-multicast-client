@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f70f39-8823-470a-8df7-43d4d89c5c44" name="Changes" comment="">
-<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/chat-multicast-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chat-multicast-app.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/.idea/libraries/miglayout_4_0.xml" afterDir="false" />
@@ -54,25 +52,13 @@
       <change afterPath="$PROJECT_DIR$/server/src/server/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ant.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/.idea/ant.xml" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/.idea/chat-multicast-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-multicast-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/chatClient.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ant.xml" beforeDir="false" />
->>>>>>> 3a7fba672232b75082ca608b43948f1030a33579
       <change beforePath="$PROJECT_DIR$/.idea/libraries/miglayout_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/miglayout_4_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/build.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/built-jar.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/built-jar.properties" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/built-jar.properties" beforeDir="false" />
->>>>>>> 3a7fba672232b75082ca608b43948f1030a33579
       <change beforePath="$PROJECT_DIR$/build/classes/com/raven/component/Chat_Body$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/com/raven/component/Chat_Body.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/com/raven/component/Chat_Bottom$1.class" beforeDir="false" />
@@ -105,7 +91,6 @@
       <change beforePath="$PROJECT_DIR$/build/classes/com/raven/form/VIew_Image$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/com/raven/form/VIew_Image$2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/com/raven/form/VIew_Image.class" beforeDir="false" />
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/box.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/out/production/chart-application/icon/box.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/box_selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/out/production/chart-application/icon/box_selected.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/cancel.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/out/production/chart-application/icon/cancel.png" afterDir="false" />
@@ -126,28 +111,6 @@
       <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/testing/dog.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/out/production/chart-application/icon/testing/dog.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/testing/pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/out/production/chart-application/icon/testing/pic.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/tick.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/out/production/chart-application/icon/tick.png" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/box.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/box_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/cancel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/double_tick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/group.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/group_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/message.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/message_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/minimize.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/save.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/send.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/testing/cat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/testing/dog.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/testing/pic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/raven/icon/tick.png" beforeDir="false" />
->>>>>>> 3a7fba672232b75082ca608b43948f1030a33579
       <change beforePath="$PROJECT_DIR$/build/classes/com/raven/main/Main$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/com/raven/main/Main$2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/com/raven/main/Main$3.class" beforeDir="false" />
@@ -176,7 +139,6 @@
       <change beforePath="$PROJECT_DIR$/build/classes/com/raven/swing/blurHash/SRGB.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/com/raven/swing/blurHash/Util.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/component/Chat_Body$1.class" beforeDir="false" />
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/build/classes/component/Chat_Body.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/component/Chat_Body.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/component/Chat_Bottom$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/component/Chat_Bottom$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/component/Chat_Bottom$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/component/Chat_Bottom$2.class" afterDir="false" />
@@ -229,80 +191,18 @@
       <change beforePath="$PROJECT_DIR$/build/classes/icon/testing/pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/out/production/chatClient/icon/testing/pic.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/icon/tick.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/out/production/chatClient/icon/tick.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/main/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/Main$1.class" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/build/classes/component/Chat_Body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/component/Chat_Bottom$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/component/Chat_Bottom$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/component/Chat_Bottom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/component/Chat_Date.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/component/Chat_File.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/component/Chat_Image$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/component/Chat_Image.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/component/Chat_Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/component/Chat_Left.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/component/Chat_Left_With_Profile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/component/Chat_Right.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/component/Chat_Title.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/component/Image_Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/component/Item_People$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/component/Item_People.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/component/MenuButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/event/EventChat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/event/EventImageView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/event/PublicEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/form/Chat$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/form/Chat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/form/Home.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/form/Menu_Left$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/form/Menu_Left$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/form/Menu_Left$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/form/Menu_Left.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/form/Menu_Right.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/form/VIew_Image$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/form/VIew_Image$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/form/VIew_Image.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/box.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/box_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/cancel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/double_tick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/group.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/group_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/message.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/message_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/minimize.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/save.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/send.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/testing/cat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/testing/dog.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/testing/pic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/icon/tick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/Main$1.class" beforeDir="false" />
->>>>>>> 3a7fba672232b75082ca608b43948f1030a33579
       <change beforePath="$PROJECT_DIR$/build/classes/main/Main$2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/main/Main$3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/main/Main$4.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/main/Main$5.class" beforeDir="false" />
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/build/classes/main/Main$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/Main$6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/swing/ComponentResizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/swing/ComponentResizer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/swing/ImageAvatar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/swing/ImageAvatar.class" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/build/classes/main/Main$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/swing/ComponentResizer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/swing/ImageAvatar.class" beforeDir="false" />
->>>>>>> 3a7fba672232b75082ca608b43948f1030a33579
       <change beforePath="$PROJECT_DIR$/build/classes/swing/JIMSendTextPane$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/swing/JIMSendTextPane$WarpColumnFactory.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/swing/JIMSendTextPane$WarpEditorKit.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/swing/JIMSendTextPane$WarpLabelView.class" beforeDir="false" />
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/build/classes/swing/JIMSendTextPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/swing/JIMSendTextPane.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/swing/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/swing/Line.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/swing/ModernScrollBarUI$1.class" beforeDir="false" />
@@ -478,164 +378,6 @@
       <change beforePath="$PROJECT_DIR$/src/form/Menu_Right.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/form/Menu_Right.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/form/VIew_Image.form" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/form/VIew_Image.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/form/VIew_Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/form/VIew_Image.java" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/build/classes/swing/JIMSendTextPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/swing/Line.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/swing/ModernScrollBarUI$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/swing/ModernScrollBarUI$InvisibleScrollBarButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/swing/ModernScrollBarUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/swing/PictureBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/swing/Progress$ProgressType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/swing/Progress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/swing/ProgressCircleUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/swing/ScrollBar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/swing/blurHash/Base83.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/swing/blurHash/BlurHash.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/swing/blurHash/SRGB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/swing/blurHash/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatClient.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/miglayout-4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/box.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/box_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/cancel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/double_tick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/group.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/group_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/message.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/message_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/minimize.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/save.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/send.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/testing/cat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/testing/dog.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/testing/pic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chart-application/icon/tick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/component/Chat_Body$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/component/Chat_Body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/component/Chat_Bottom$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/component/Chat_Bottom$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/component/Chat_Bottom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/component/Chat_Date.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/component/Chat_File.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/component/Chat_Image$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/component/Chat_Image.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/component/Chat_Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/component/Chat_Left.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/component/Chat_Left_With_Profile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/component/Chat_Right.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/component/Chat_Title.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/component/Image_Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/component/Item_People$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/component/Item_People.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/component/MenuButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/event/EventChat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/event/EventImageView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/event/PublicEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/form/Chat$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/form/Chat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/form/Home.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/form/Menu_Left$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/form/Menu_Left$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/form/Menu_Left.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/form/Menu_Right.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/form/VIew_Image$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/form/VIew_Image$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/form/VIew_Image.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/box.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/box_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/cancel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/double_tick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/group.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/group_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/message.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/message_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/minimize.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/save.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/send.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/testing/cat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/testing/dog.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/testing/pic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/icon/tick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/main/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/main/Main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/main/Main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/main/Main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/main/Main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/main/Main$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/swing/ComponentResizer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/swing/ImageAvatar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/swing/JIMSendTextPane$WarpColumnFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/swing/JIMSendTextPane$WarpEditorKit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/swing/JIMSendTextPane$WarpLabelView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/swing/JIMSendTextPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/swing/Line.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/swing/ModernScrollBarUI$InvisibleScrollBarButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/swing/ModernScrollBarUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/swing/PictureBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/swing/Progress$ProgressType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/swing/Progress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/swing/ProgressCircleUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/swing/ScrollBar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/swing/blurHash/Base83.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/swing/blurHash/BlurHash.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/swing/blurHash/SRGB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatClient/swing/blurHash/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_Body.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_Body.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_Bottom.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_Bottom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_Date.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_Date.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_File.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_File.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_Image.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_Image.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_Item.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_Left.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_Left.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_Left_With_Profile.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_Left_With_Profile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_Right.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_Right.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_Title.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chat_Title.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Image_Item.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Image_Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Item_People.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Item_People.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/MenuButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/event/EventChat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/event/EventImageView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/event/PublicEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/Chat.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/Chat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/Home.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/Home.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/Menu_Left.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/Menu_Left.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/Menu_Right.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/Menu_Right.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/VIew_Image.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/VIew_Image.java" beforeDir="false" />
->>>>>>> 3a7fba672232b75082ca608b43948f1030a33579
       <change beforePath="$PROJECT_DIR$/src/icon/box.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/icon/box_selected.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/icon/cancel.png" beforeDir="false" />
@@ -653,7 +395,6 @@
       <change beforePath="$PROJECT_DIR$/src/icon/save.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/icon/send.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/icon/testing/cat.png" beforeDir="false" />
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/icon/testing/dog.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/icon/testing/dog.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/icon/testing/pic.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/icon/tick.png" beforeDir="false" />
@@ -676,37 +417,12 @@
       <change beforePath="$PROJECT_DIR$/test/testing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/test/testing/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/testing/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/test/testing/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/testing/dog.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/chat-multicast-app/testing/dog.jpg" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/src/icon/testing/dog.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icon/testing/pic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icon/tick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swing/ComponentResizer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swing/ImageAvatar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swing/JIMSendTextPane.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swing/Line.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swing/ModernScrollBarUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swing/PictureBox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swing/Progress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swing/ProgressCircleUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swing/ScrollBar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swing/blurHash/Base83.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swing/blurHash/BlurHash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swing/blurHash/SRGB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swing/blurHash/Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testing/Main.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testing/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testing/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testing/dog.jpg" beforeDir="false" />
->>>>>>> 3a7fba672232b75082ca608b43948f1030a33579
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -723,17 +439,10 @@
   </component>
   <component name="ProjectId" id="2JarxtW9iutSWMF925eCfkCS81x" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-=======
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="2JarxtW9iutSWMF925eCfkCS81x" />
->>>>>>> 3a7fba672232b75082ca608b43948f1030a33579
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -746,15 +455,6 @@
   }
 }</component>
   <component name="RunManager" selected="Application.Client">
-=======
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunManager">
->>>>>>> 3a7fba672232b75082ca608b43948f1030a33579
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Client" />
       <module name="chat-multicast-app" />
@@ -768,7 +468,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="chat-multicast-app" />
@@ -786,11 +485,6 @@
       <list>
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main" />
-=======
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Client" />
->>>>>>> 3a7fba672232b75082ca608b43948f1030a33579
       </list>
     </recent_temporary>
   </component>
@@ -815,9 +509,9 @@
         </entry>
       </map>
     </option>
-<<<<<<< HEAD
-=======
-    <option name="oldMeFiltersMigrated" value="true" />
->>>>>>> 3a7fba672232b75082ca608b43948f1030a33579
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="resolve conflict" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolve conflict" />
   </component>
 </project>

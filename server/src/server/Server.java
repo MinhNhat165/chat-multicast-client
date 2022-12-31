@@ -1,11 +1,10 @@
 package server;
-
-import models.Message;
 import java.io.*;
 import java.net.*;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import models.*;
 
 /**
  *
@@ -41,20 +40,13 @@ public class Server extends Thread {
                 byte[] data = recv.getData();
                 Message message1 = new Message(new String(data));
                 String messageSend = "";
-
-                System.out.println(message1.getSender());
-
                 switch (message1.getType()) {
                     case "join" -> {
                         users.add(message1.getSender());
                         messageSend = message1.makeUserList(users);
                     }
                     case "message" -> {
-                        if(message1.getRoomName().equals("111111")) {
-                            messageSend = message1.makeTextMessageFull(message1.getSender(), message1.getText(), message1.getRoomName());
-                        } else messageSend = message1.makeTextMessageRoom(message1.getSender(), message1.getText(), message1.getRoomName());
-
-
+                        messageSend = message1.makeTextMessageRoom(message1.getSender(), message1.getText(),message1.getRoomId());
                     }
                     case "leave" -> {
                         users.remove(message1.getSender());
@@ -62,7 +54,8 @@ public class Server extends Thread {
                     }
 
                     case "room" -> {
-                        messageSend = message1.makeTextCreateRoom(message1.getSender(),message1.getRoomName(), message1.getMembers());
+                        messageSend = message1.makeTextCreateRoom(message1.getSender(),message1.getRoomId(),message1.getRoomName(), message1.getMembers());
+                        System.out.println(messageSend);
                     }
 
                     default -> {

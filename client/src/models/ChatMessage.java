@@ -19,11 +19,11 @@ public class ChatMessage {
         this.createdAt = formatter.format(date);
     }
 
-    public ChatMessage(String sender, String text, String position, String roomName) {
+    public ChatMessage(String sender, String text, String position, String roomId) {
         this.sender = sender;
         this.text = text;
         this.position = position;
-        this.roomId = roomName;
+        this.roomId = roomId;
 
         SimpleDateFormat formatter = new SimpleDateFormat("HH:mm a");
         Date date = new Date();

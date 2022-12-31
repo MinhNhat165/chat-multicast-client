@@ -1,6 +1,6 @@
 package models;
 
-public class Message {  //type<form>sender<text>receiver
+public class Message {  //type<form>sender<text>roomName<members>roomId<><>
     private String type;
     private String from;
     private String sender;
@@ -8,6 +8,15 @@ public class Message {  //type<form>sender<text>receiver
     private String roomName;
     private String members;
 
+    private String roomId;
+
+    public String getRoomId() {
+        return roomId;
+    }
+
+    public void setRoomId(String roomId) {
+        this.roomId = roomId;
+    }
 
     public String getFrom() {
         return from;
@@ -71,6 +80,9 @@ public class Message {  //type<form>sender<text>receiver
                     this.roomName = messageSplit[4];
                     if(size > 5) {
                         this.members = messageSplit[5];
+                        if(size > 6) {
+                            this.roomId = messageSplit[6];
+                        }
                     }
                 }
             }
@@ -115,11 +127,11 @@ public class Message {  //type<form>sender<text>receiver
         return "message<client>" + sender + "<" + text +">"+ roomName +"<"+members+">" +"<>";
     }
 
-    public String makeTextCreateRoom(String roomId, String roomName, String members) {
-        return "room<client>" + roomId + "<>"+ roomName +"<"+members+">" +"<>";
+    public String makeTextCreateRoom(String sender,String roomId, String roomName, String members) {
+        return "room<client>"+ sender +"<>"+ roomName+ "<"+ members + ">"+roomId+ "<><>";
     }
 
     public  String makeTextMessageRoom(String sender, String text, String roomId) {
-        return "message<client>" + sender + "<" + text +">"+ roomId +"<>" +"<>";
+        return "message<client>"+ sender +"<"+text+">"+"<>"+roomId+"<><>";
     }
 }

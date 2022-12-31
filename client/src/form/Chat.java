@@ -26,15 +26,13 @@ public class Chat extends javax.swing.JPanel {
         Chat_Body chatBody = new Chat_Body();
         Chat_Bottom chatBottom = new Chat_Bottom();
         rooms = new ArrayList<>();
-        Room room = new Room("General", new ArrayList<>());
-        room.setId("111111");
-        currentRoom = room;
+        Room room = new Room("111111","General", new ArrayList<>());
         rooms.add(room);
+        currentRoom = room;
         chatTitle.setUserName(currentRoom.getName());
         chatBody.setItems(currentRoom.getChatMessages());
         chatBottom.setCurrentRoom(currentRoom);
         PublicEvent.getInstance().addEventChatBody(new EventChatBody() {
-
             @Override
             public void setRoomChat(String roomName, String id) {
                 int index = IntStream.range(0, rooms.size())
@@ -43,27 +41,18 @@ public class Chat extends javax.swing.JPanel {
                         .orElse(-1); // kiểm tra room đã tồn tại chưa
                 if(index >=0) {
                     currentRoom = rooms.get(index);
-
                 } else {
                     currentRoom = rooms.get(0);
 
                 }
                 System.out.println(currentRoom.getId());
-                chatBody.removeAll();
                 chatTitle.setUserName(currentRoom.getName());
                 chatBody.setItems(currentRoom.getChatMessages());
                 chatBottom.setCurrentRoom(currentRoom);
-
             }
 
             @Override
             public void receiveMessage(ChatMessage chatMessage) {
-                System.out.println(chatMessage.getRoomId());
-
-                if(currentRoom.getId().equals(chatMessage.getRoomId())) {
-                    System.out.println(chatMessage.getRoomId());
-                    chatBody.addItem(chatMessage); // nếu đang đứng tại room đó thì add tinh nhắn vô luôn;
-                }
                 int index = IntStream.range(0, rooms.size())
                         .filter(i -> Objects.equals(rooms.get(i).getId(), chatMessage.getRoomId()))
                         .findFirst()
@@ -72,6 +61,9 @@ public class Chat extends javax.swing.JPanel {
                     rooms.get(index).getChatMessages().add(chatMessage); // nếu đã tồn tại thêm mess và room
                 }
 
+                if(currentRoom.getId().equals(chatMessage.getRoomId())) {
+                    chatBody.addItem(chatMessage); // nếu đang đứng tại room đó thì add tinh nhắn vô luôn;
+                }
             }
 
             @Override

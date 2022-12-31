@@ -9,8 +9,17 @@ public class Message {  //type<from>sender<text>receiver
     private String sender;
     private String text;
     private String roomName;
-
     private String members;
+
+    private String roomId;
+
+    public String getRoomId() {
+        return roomId;
+    }
+
+    public void setRoomId(String roomId) {
+        this.roomId = roomId;
+    }
 
     public void setRoomName(String roomName) {
         this.roomName = roomName;
@@ -88,6 +97,10 @@ public class Message {  //type<from>sender<text>receiver
                 this.roomName = messageSplit[4];
                 if(size > 5) {
                     this.members = messageSplit[5];
+
+                    if(size > 6) {
+                        this.roomId = messageSplit[6];
+                    }
                 }
             }
         }
@@ -120,14 +133,18 @@ public class Message {  //type<from>sender<text>receiver
         return "message<server>" + sender + "<" + text +">"+ roomName +"<><>";
     }
 
-    public  String makeTextMessageRoom(String sender, String text, String roomId) {
-        return "message<server>" + sender + "<" + text +">"+ roomId +"<>" +"<>";
-    }
+
     public String makeUserList(ArrayList<String> users) {
         return "userList<server>" + users.toString()+"<><>";
     }
-    public String makeTextCreateRoom(String roomId, String roomName, String members) {
-        return "room<client>" + roomId + "<>"+ roomName +"<"+members+">" +"<>";
+    public String makeTextCreateRoom(String sender,String roomId, String roomName, String members) {
+        return "room<server>"+ sender +"<>"+ roomName+ "<"+ members + ">"+roomId+ "<><>";
     }
+
+    public  String makeTextMessageRoom(String sender, String text, String roomId) {
+        return "message<server>"+ sender +"<"+text+">"+"<>"+roomId+"<><>";
+    }
+
+
 
 }

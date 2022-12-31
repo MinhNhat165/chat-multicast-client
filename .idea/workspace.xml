@@ -2,9 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f70f39-8823-470a-8df7-43d4d89c5c44" name="Changes" comment="Update sidebar">
+      <change afterPath="$PROJECT_DIR$/client/src/event/EventSidebarRight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/form/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/form/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Home.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/component/Item_People.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/component/Item_People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/event/PublicEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/event/PublicEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/form/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/form/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/form/Menu_Left.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/form/Menu_Left.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/form/Menu_Right.form" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/form/Menu_Right.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/form/Menu_Right.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/form/Menu_Right.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/models/ChatMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/models/ChatMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/models/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/models/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/component/Item_People$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/component/Item_People$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/component/Item_People.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/component/Item_People.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/event/PublicEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/event/PublicEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Chat$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Chat$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Chat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Chat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Menu_Left$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Menu_Left$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Menu_Left$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Menu_Left$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Menu_Left$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Menu_Left$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Menu_Left.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Menu_Left.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Menu_Right.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/form/Menu_Right.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/main/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/main/Client$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-multicast-app/main/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chat-multicast-app/main/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/out/production/server/models/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/out/production/server/models/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/out/production/server/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/out/production/server/server/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/models/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +68,21 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Client" />
+      <module name="chat-multicast-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Client" />
       <module name="chat-multicast-app" />
       <extension name="coverage">
@@ -69,10 +108,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -99,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672454376048</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update sidebar">
+      <created>1672454447074</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672454447074</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

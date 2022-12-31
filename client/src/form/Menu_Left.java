@@ -24,6 +24,8 @@ public class Menu_Left extends javax.swing.JPanel {
     private void init() {
         sp.setVerticalScrollBar(new ScrollBar());
         menuList.setLayout(new MigLayout("fillx", "0[]0", "0[]0"));
+        rooms.add(new Room("111111","General", new ArrayList<>()));
+        System.out.println(rooms.get(0).getName());
         PublicEvent.getInstance().addEventUser(new EventUser() {
 
             @Override
@@ -41,7 +43,11 @@ public class Menu_Left extends javax.swing.JPanel {
 
             @Override
             public void setUserListConnected(ArrayList<String> arrayList) {
+
                 usersConnected = arrayList;
+                if(tabActive == 1) {
+                    showUserConnected();
+                }
             }
 
             @Override
@@ -51,30 +57,26 @@ public class Menu_Left extends javax.swing.JPanel {
 
             @Override
             public void addNewRoom(Room room) {
-                System.out.println(room.getName());
-                Item_People item_people = new Item_People(room.getName());
-                item_people.setId(room.getId());
-                menuList.add(item_people, "wrap");
+
                 rooms.add(room);
+                if(tabActive == 1) return;
+                menuList.add(new Item_People(room.getName(), room.getId()), "wrap");
             }
         });
-
         showMessage();
     }
 
     private void showMessage() {
-        //  test data
+        tabActive = 0;
         menuList.removeAll();
-        Item_People item_people = new Item_People("General");
-        item_people.setId("111111");
-        menuList.add(item_people, "wrap");
         rooms.forEach(room -> {
-            menuList.add(new Item_People(room.getName()), "wrap");
+            menuList.add(new Item_People(room.getName(), room.getId()), "wrap");
         });
         refreshMenuList();
     }
 
     private void showUserConnected() {
+        tabActive = 1;
         //  test data
         menuList.removeAll();
         for (String s : usersConnected) {

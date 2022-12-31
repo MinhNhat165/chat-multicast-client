@@ -49,18 +49,15 @@ public class Client extends Thread {
             PublicEvent.getInstance().addEventMainChat(new EventMainChat() {
                 @Override
                 public void sendMessage(String text, String roomId, String members) throws IOException {
-                    String message = messageSocket.makeTextMessageFull(main.getName(), text,roomId);
-                    if(!roomId.isEmpty()) {
-                        message = messageSocket.makeTextMessageRoom(main.getName(), text,roomId);
-                    }
+                    String  message = messageSocket.makeTextMessageRoom(main.getName(), text,roomId);
                     DatagramPacket packet = new DatagramPacket(message.getBytes(), message.length(), finalGroup, MULTICAST_PORT);
                     socket.send(packet);
                 }
 
                 @Override
                 public void createRoom(Room room) throws IOException {
-                    String message = messageSocket.makeTextCreateRoom(room.getId(), room.getName(), room.getMember().toString());
-
+                    String message = messageSocket.makeTextCreateRoom(main.getName(), room.getId(),room.getName(),room.getMember().toString());
+                    System.out.println(message);
                     DatagramPacket packet = new DatagramPacket(message.getBytes(), message.length(), finalGroup, MULTICAST_PORT);
                     socket.send(packet);
                 }

@@ -311,47 +311,43 @@ public class Main extends JFrame {
     }
 
     public void setNewMessage(String newMessage) {
-
         Message message = new Message(newMessage);
+        System.out.println(newMessage);
+
         switch (message.getType()) {
             case "join" -> {
                 PublicEvent.getInstance().getEventUser().addUserConnected(message.getSender());
-                PublicEvent.getInstance().getEventChatBody().receiveMessage(new ChatMessage(message.getSender(), "join", "center", message.getRoomName()));
+                PublicEvent.getInstance().getEventChatBody().receiveMessage(new ChatMessage(message.getSender(), "join", "center", "111111"));
             }
             case "leave" -> {
-                PublicEvent.getInstance().getEventChatBody().receiveMessage(new ChatMessage(message.getSender(), "left", "center", message.getRoomName()));
+                PublicEvent.getInstance().getEventChatBody().receiveMessage(new ChatMessage(message.getSender(), "left", "center", "111111"));
                 PublicEvent.getInstance().getEventUser().removeUserConnected(message.getSender());
             }
             case "message" -> {
-                if(message.getFrom().equals("server")) {
-                    ChatMessage chatMessage = new ChatMessage();
-                    chatMessage.setSender(message.getSender());
-                    chatMessage.setText(message.getText());
-                    chatMessage.setRoomId(message.getRoomName());
-                    if(message.getSender().equals(username)) {
-                        chatMessage.setPosition("right");
-                    } else chatMessage.setPosition("left");
-                    if(chatMessage.getRoomId().equals("111111")) {
-                        PublicEvent.getInstance().getEventChatBody().receiveMessage(chatMessage);
-                    } else {
-                        ArrayList<String> users =  new ArrayList<>( Arrays.asList(message.getMembers().substring(1, message.getMembers().length() - 1).replaceAll("\\s", "").split(",")));
-                        System.out.println(users);
-                    }
-
-                }
+                if(!message.getFrom().equals("server")) return;
+                ChatMessage chatMessage = new ChatMessage();
+                chatMessage.setSender(message.getSender());
+                chatMessage.setText(message.getText());
+                System.out.println(chatMessage.getText());
+                chatMessage.setRoomId(message.getRoomId());
+                if(message.getSender().equals(username)) {
+                    chatMessage.setPosition("right");
+                } else chatMessage.setPosition("left");
+                PublicEvent.getInstance().getEventChatBody().receiveMessage(chatMessage);
             }
 
             case "room" -> {
-                if(message.getFrom().equals("client")) return;
+                if(!message.getFrom().equals("server")) return;
                 ArrayList<String> users =  new ArrayList<>( Arrays.asList(message.getMembers().substring(1, message.getMembers().length() - 1).replaceAll("\\s", "").split(",")));
                 if(users.contains(username)) {
-                    Room room = new Room(message.getSender(), message.getRoomName(),users);
+                    Room room = new Room(message.getRoomId(), message.getRoomName(),users);
                     PublicEvent.getInstance().getEventUser().addNewRoom(room);
                     PublicEvent.getInstance().getEventChatBody().addRoomChat(room);
                 }
 
             }
             case "userList" -> {
+                if(!message.getFrom().equals("server")) return;
                 ArrayList<String> users =  new ArrayList<>( Arrays.asList(message.getSender().substring(1, message.getSender().length() - 1).replaceAll("\\s", "").split(",")));
                 PublicEvent.getInstance().getEventUser().setUserListConnected(users);
             }

@@ -1,7 +1,6 @@
 package component;
 
 import event.PublicEvent;
-
 import java.awt.Color;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
@@ -15,13 +14,11 @@ public class Item_People extends javax.swing.JPanel {
         lb.setText(name);
         init();
     }
-
-    public void setId(String idRoom) {
-        id = idRoom;
-    }
-
-    public String getId() {
-        return  id;
+    public Item_People(String name, String id) {
+        initComponents();
+        lb.setText(name);
+        lb.setName(id);
+        init();
     }
 
     private void init() {
@@ -39,10 +36,11 @@ public class Item_People extends javax.swing.JPanel {
             @Override
             public void mouseClicked(MouseEvent me) {
                int tabActive = PublicEvent.getInstance().getEventUser().getTabActive();
-                if(!lb.getText().equals("General") && tabActive == 1) {
-                    PublicEvent.getInstance().getEventMenuRight().addUser(lb.getText());
+                if(tabActive == 1) {
+                    String user = lb.getText();
+                    PublicEvent.getInstance().getEventMenuRight().addUser(user);
                 } else if(tabActive == 0) {
-                    PublicEvent.getInstance().getEventChatBody().setRoomChat(lb.getName(), id);
+                    PublicEvent.getInstance().getEventChatBody().setRoomChat(lb.getText(),lb.getName() );
                 }
             }
         });

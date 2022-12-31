@@ -72,12 +72,6 @@ public class Server extends Thread {
                 System.exit(2);
             }
 
-            // sleep 5 second
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException ignored) {
-
-            }
         }
     }
 

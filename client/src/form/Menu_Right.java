@@ -128,6 +128,8 @@ public class Menu_Right extends javax.swing.JPanel {
             PublicEvent.getInstance().getEventMainChat().createRoom(room);
             menuList.removeAll();
             input.setText("");
+            menuList.repaint();
+            menuList.revalidate();
         }
 
     }//GEN-LAST:event_createBtnActionPerformed

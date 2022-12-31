@@ -18,8 +18,8 @@ import java.net.*;
  */
 public class Client extends Thread {
 
-    public static final String MULTICAST_ADDRESS = "230.0.0.1";
-    public static final int MULTICAST_PORT = 4000;
+    public static final String MULTICAST_ADDRESS = "239.255.255.250";
+    public static final int MULTICAST_PORT = 4411;
     public static final int DATAGRAM_BUFFTER_LENGTH = 2048;
     Main main = new Main(0);
     Message messageSocket = new Message();
@@ -60,6 +60,7 @@ public class Client extends Thread {
                 @Override
                 public void createRoom(Room room) throws IOException {
                     String message = messageSocket.makeTextCreateRoom(room.getId(), room.getName(), room.getMember().toString());
+
                     DatagramPacket packet = new DatagramPacket(message.getBytes(), message.length(), finalGroup, MULTICAST_PORT);
                     socket.send(packet);
                 }

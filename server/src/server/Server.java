@@ -13,8 +13,8 @@ import java.util.logging.Logger;
  */
 public class Server extends Thread {
 
-    public static final String MULTICAST_ADDRESS = "230.0.0.1";
-    public static final int MULTICAST_PORT = 4000;
+    public static final String MULTICAST_ADDRESS = "239.255.255.250";
+    public static final int MULTICAST_PORT = 4411;
     public static final int DATAGRAM_BUFFTER_LENGTH = 2048;
     private ArrayList<String> users;
 
@@ -81,7 +81,7 @@ public class Server extends Thread {
 
             // sleep 5 second
             try {
-                Thread.sleep(1000 * 5);
+                Thread.sleep(1000);
             } catch (InterruptedException ignored) {
 
             }
